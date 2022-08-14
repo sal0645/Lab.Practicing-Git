@@ -26,7 +26,7 @@ const gridRow = (grid, rowNum) => {
 
 const gridColumn = (grid, colNum) => {
   const resultCol = [];
-  for (let i = 0; i < grid.length; i++) {    //loop through every row 
+  for (let i = 0; i < grid.length; i++) {    
     const row = grid[i];
     const columnNum = row[colNum - 1];
     resultCol.push(columnNum);
